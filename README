@@ -11,5 +11,11 @@ Check out what you need:
 4. Know the paths of what you wanna move around
 5. Invoke the script:
 
+```sh
+# migrate -a AZURE_SAS_KEY -b AWS_ACCESS_KEY_ID -c AWS_SECRET_ACCESS_KEY -o "$AWS_BUCKET" -d "$AZURE_BUCKET
+```
+
+
+
 
 
