@@ -1,2 +1,14 @@
-a
+# Migrate2azure
+
+This is a simples shell script to move data between an AWS S3 bucket to an Azure Storage. Setup is clean and easy.
+
+Check out what you need:
+
+1. Clone the repository
+2. Have Access and Secret AWS keys with the right permissions so you can reach the data you what to move.
+3. Configure your Azure Storage to receive the data setingup a SAS from the resource options: (https://docs.microsoft.com/en-us/rest/api/storageservices/create-account-sas?redirectedfrom=MSDN) 
+4. Know the paths of what you wanna move around
+5. Invoke the script:
+
+
 
